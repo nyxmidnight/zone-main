@@ -1,0 +1,34 @@
+{
+  "arrowParens": "always",
+  "braceStyle": "per-cs",
+  "bracketSameLine": true,
+  "bracketSpacing": true,
+  "embeddedLanguageFormatting": "auto",
+  "endOfLine": "lf",
+  "experimentalTernaries": false,
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxSingleQuote": true,
+  "phpVersion": "8.3",
+  "plugins": [
+    "@prettier/plugin-php"
+  ],
+  "printWidth": 80,
+  "proseWrap": "always",
+  "quoteProps": "consistent",
+  "requirePragma": false,
+  "semi": true,
+  "singleAttributePerLine": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "trailingCommaPHP": true,
+  "useTabs": false,
+  "vueIndentScriptAndStyle": true,
+  "overrides": [
+    {
+      "files": [".prettierrc", ".stylelintrc", ".htmlhintrc", ".prettyphp"],
+      "options": { "parser": "json" }
+    }
+  ]
+}

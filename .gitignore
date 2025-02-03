@@ -5,9 +5,9 @@
 .htaccess
 
 # Ignore configuration files
-.prettierrc
-.htmlhintrc
-.stylelintrc
+# .prettierrc
+# .htmlhintrc
+# .stylelintrc
 .prettyphp
-*.json
+# *.json
 *.config
