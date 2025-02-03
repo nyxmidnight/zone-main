@@ -1,0 +1,2 @@
+# No ads here!
+placeholder.example.com, placeholder, DIRECT, placeholder
