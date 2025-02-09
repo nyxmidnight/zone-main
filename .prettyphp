@@ -1,0 +1,25 @@
+{
+  "src": [
+    "."
+  ],
+  "includeIfPhp": true,
+  "insertSpaces": true,
+  "tabSize": 2,
+  "eol": "lf",
+  "disable": [],
+  "enable": [
+    "align-chains",
+    "align-comments",
+    "align-data",
+    "align-fn",
+    "align-lists",
+    "align-ternary",
+    "blank-before-return",
+    "preserve-one-line",
+    "semi-strict-expressions"
+  ],
+  "operatorsFirst": true,
+  "heredocIndent": "hanging",
+  "psr12": true,
+  "preset": "wordpress"
+}

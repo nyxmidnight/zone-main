@@ -8,6 +8,6 @@
 # .prettierrc
 # .htmlhintrc
 # .stylelintrc
-.prettyphp
+# .prettyphp
 # *.json
 *.config

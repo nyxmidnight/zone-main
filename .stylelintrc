@@ -1,36 +1,34 @@
 {
-    "extends": "stylelint-config-standard",
-    "plugins": [
-        "stylelint-plugin-defensive-css"
-    ],
-    "rules": {
-        "color-no-invalid-hex": true,
-        "comment-empty-line-before": "never",
-        "custom-property-empty-line-before": "never",
-        "declaration-empty-line-before": "never",
-        "font-weight-notation": "numeric",
-        "plugin/use-defensive-css": [
-            {
-                "accidental-hover": true
-            },
-            {
-                "background-repeat": true
-            },
-            {
-                "custom-property-fallbacks": false
-            },
-            {
-                "flex-wrapping": true
-            },
-            {
-                "scroll-chaining": true
-            },
-            {
-                "scrollbar-gutter": true
-            },
-            {
-                "vendor-prefix-grouping": false
-            }
-        ]
-    }
+  "extends": "stylelint-config-standard",
+  "plugins": ["stylelint-plugin-defensive-css"],
+  "rules": {
+    "color-no-invalid-hex": true,
+    "comment-empty-line-before": "never",
+    "custom-property-empty-line-before": "never",
+    "declaration-empty-line-before": "never",
+    "font-weight-notation": "numeric",
+    "plugin/use-defensive-css": [
+      {
+        "accidental-hover": true
+      },
+      {
+        "background-repeat": true
+      },
+      {
+        "custom-property-fallbacks": false
+      },
+      {
+        "flex-wrapping": true
+      },
+      {
+        "scroll-chaining": true
+      },
+      {
+        "scrollbar-gutter": true
+      },
+      {
+        "vendor-prefix-grouping": false
+      }
+    ]
+  }
 }

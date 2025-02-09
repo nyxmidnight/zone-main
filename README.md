@@ -1,1 +1,1 @@
-# zone-main
+# The Nyx Zone: A Collective

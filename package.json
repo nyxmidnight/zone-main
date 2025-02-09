@@ -10,7 +10,7 @@
     "url": "https://github.com/nyxmidnight/zone-main.git"
   },
   "devDependencies": {
-    "@prettier/plugin-php": "^0.22.4",
+    "prettier": "^3.4.2",
     "stylelint-config-standard": "^37.0.0",
     "stylelint-plugin-defensive-css": "^1.0.4"
   },
