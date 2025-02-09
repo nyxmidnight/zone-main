@@ -7,7 +7,20 @@ Versioning].
 
 ## [Unreleased]
 
-  - /
+### Added
+
+-
+
+### Changed
+
+### Deprecated
+
+### Removed
+
+### Fixed
+
+### Security
+
 
 ## [0.0.2] - 2025-02-01
 

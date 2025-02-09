@@ -1,10 +1,10 @@
 {
   "private": true,
   "name": "zone-main",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Settings and packages to develop my new collective main site.",
   "author": "Nyx Midnight",
-  "license": "",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/nyxmidnight/zone-main.git"
