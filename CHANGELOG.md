@@ -9,7 +9,7 @@ Versioning].
 
 ### Added
 
--
+- .prettyphp
 
 ### Changed
 
