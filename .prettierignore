@@ -1,0 +1,14 @@
+# Ignore node_modules
+/node_modules
+
+# Ignore sensitive files
+.htaccess
+
+# Folders to ignore
+/css
+/favicon
+/img
+
+# Files to ignore
+*.php
+# PHP above 8.2 unsupported in plugin, use pretty-php
