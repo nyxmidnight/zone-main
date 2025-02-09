@@ -7,7 +7,19 @@ Versioning].
 
 ## [Unreleased]
 
-  - /
+### Added
+
+-
+
+### Changed
+
+### Deprecated
+
+### Removed
+
+### Fixed
+
+### Security
 
 ## [0.0.2] - 2025-02-01
 
@@ -51,7 +63,7 @@ Versioning].
 
 ## [0.0.1] - 2025-02-01
 
-  - Initial commit
+- Initial commit
 
 ### Added
 
