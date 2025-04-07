@@ -10,8 +10,8 @@
     "url": "https://github.com/nyxmidnight/zone-main.git"
   },
   "devDependencies": {
-    "prettier": "^3.4.2",
-    "stylelint-config-standard": "^37.0.0",
+    "prettier": "^3.5.3",
+    "stylelint-config-standard": "^38.0.0",
     "stylelint-plugin-defensive-css": "^1.0.4"
   },
   "browserslist": [
