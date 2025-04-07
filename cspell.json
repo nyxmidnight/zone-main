@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "version": "0.2",
+  "cSpell.autoFormatConfigFile": true,
+  "cSpell.enabled": true,
+  "cSpell.language": "en-CA",
+  "cSpell.maxNumberOfProblems": 100,
+  "cSpell.numSuggestions": 8,
+  "cSpell.minWordLength": 3,
+  "cSpell.enabledFileTypes": { "*": true, "json": false },
+  "cSpell.words": [],
+  "cSpell.allowCompoundWords": false,
+  "cSpell.ignoreWords": ["behaviour"],
+  "cSpell.userWords": [],
+  "cSpell.ignorePaths": [
+    "package-lock.json",
+    "node_modules",
+    "**/node_modules",
+    "**/node_modules/**",
+    "vscode-extension",
+    ".git"
+  ],
+  "cSpell.flagWords": ["hte"],
+  "cSpell.spellCheckDelayMs": 1500,
+  "cSpell.diagnosticLevel": "Information",
+  "cSpell.custom": true,
+  "cSpell.customDictionaries": {
+    "ProjectWords": {
+      "name": "project-words",
+      "path": "${workspaceRoot}/project-words.txt",
+      "scope": "user",
+      "addWords": true
+    },
+    "FandomTerms": {
+      "name": "fandom-terms",
+      "path": "${workspaceRoot}/fandom-terms.txt",
+      "scope": "user",
+      "addWords": false
+    }
+  }
+}
