@@ -10,8 +10,14 @@ Versioning].
 ### Added
 
 - .prettyphp
+- cspell.json
+- fandom-terms.txt
+- project-words.txt
 
 ### Changed
+
+- .gitignore
+- package.json
 
 ### Deprecated
 
