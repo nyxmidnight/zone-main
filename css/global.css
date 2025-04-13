@@ -215,7 +215,7 @@ footer.grid__child {
 }
 
 /*----------  Grid (tablet)  ----------*/
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 960px) {
   .grid {
     display: -ms-grid;
     display: grid;

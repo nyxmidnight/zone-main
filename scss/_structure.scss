@@ -52,7 +52,7 @@ footer.grid__child {
 
 /*----------  Grid (tablet)  ----------*/
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 960px) {
   .grid {
     display: grid;
     grid-template-columns: 20% 1fr;
