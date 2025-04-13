@@ -13,11 +13,23 @@ Versioning].
 - cspell.json
 - fandom-terms.txt
 - project-words.txt
+- scss/reset.scss
+- scss/basics.scss
+- scss/structure.scss
+- error/403.html
+- error/404.html
+- error/410.html
+- error/500.html
+- inc/header.php
+- inc/footer.php
 
 ### Changed
 
 - .gitignore
 - package.json
+- scss/global.scss
+- css/global.css
+- css/global.css.map
 
 ### Deprecated
 

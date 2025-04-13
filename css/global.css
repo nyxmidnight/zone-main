@@ -105,4 +105,149 @@ html {
   font-size: 125%;
   /* BECAUSE I'M BLIND THAT'S WHY */
 }
+
+a {
+  -webkit-text-decoration-skip-ink: all;
+          text-decoration-skip-ink: all;
+  text-underline-offset: 0.115em;
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
+.text-assistive {
+  clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  box-sizing: border-box;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+.text-assistive.display-at-top-on-focus {
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.text-assistive.display-at-top-on-focus:focus,
+.text-assistive.display-at-top-on-focus:active {
+  clip-path: none;
+  z-index: 999;
+  height: 80px;
+  line-height: 80px;
+  background: black;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+#skip-link-target:focus,
+#skip-link-target:active {
+  background: black;
+  color: white;
+}
+
+/**
+ *
+ * Structure (grid and etc.)
+ *
+ */
+/*----------  Definitions  ----------*/
+header.grid__child {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: header;
+}
+
+main.grid__child {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: main;
+}
+
+aside.int-menu {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: sidebar1;
+}
+
+aside.ext-menu {
+  -ms-grid-row: 7;
+  -ms-grid-column: 1;
+  grid-area: sidebar2;
+}
+
+footer.grid__child {
+  -ms-grid-row: 9;
+  -ms-grid-column: 1;
+  grid-area: footer;
+}
+
+/*----------  Grid (phone-first)  ----------*/
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: auto 1rem auto 1rem auto 1rem auto 1rem auto;
+  grid-template-rows: repeat(5, auto);
+      grid-template-areas: "header" "main" "sidebar1" "sidebar2" "footer";
+  gap: 1rem 0; /* row-gap col-gap */
+  place-items: center; /* justify-item align-item */
+  justify-content: space-between;
+}
+
+.grid__child {
+  width: 100%;
+  justify-content: start;
+  -ms-grid-row-align: start;
+      align-self: start;
+}
+
+/*----------  Grid (tablet)  ----------*/
+@media screen and (min-width: 550px) {
+  .grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 20% 0 1fr;
+    grid-template-columns: 20% 1fr;
+    -ms-grid-rows: auto 1rem auto 1rem auto 1rem auto;
+    grid-template-rows: repeat(4, auto);
+        grid-template-areas: ". header" "sidebar1 main" "sidebar2 main" ". footer";
+    gap: 1rem 0; /* row-gap col-gap */
+    place-items: center; /* justify-item align-item */
+    justify-content: space-between;
+  }
+  header.grid__child {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+  }
+  main.grid__child {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 3;
+  }
+  aside.int-menu {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+  }
+  aside.ext-menu {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+  }
+  footer.grid__child {
+    -ms-grid-row: 7;
+    -ms-grid-column: 3;
+  }
+}
 /*# sourceMappingURL=global.css.map */

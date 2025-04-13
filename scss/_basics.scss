@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  *
  * Some basics
@@ -7,4 +8,53 @@
 html {
   font-size: 125%;
   /* BECAUSE I'M BLIND THAT'S WHY */
+}
+
+a {
+  text-decoration-skip-ink: all;
+  text-underline-offset: 0.115em;
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
+.text-assistive {
+  clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  box-sizing: border-box;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+.text-assistive.display-at-top-on-focus {
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.text-assistive.display-at-top-on-focus:focus,
+.text-assistive.display-at-top-on-focus:active {
+  clip-path: none;
+  z-index: 999;
+  height: 80px;
+  line-height: 80px;
+  background: black;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+#skip-link-target:focus,
+#skip-link-target:active {
+  background: black;
+  color: white;
 }
