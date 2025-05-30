@@ -5,10 +5,30 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog], and this project adheres to [Semantic
 Versioning].
 
-## [Unreleased]
+## [version] - 2025-05-30
 
 ### Added
 
+-
+
+### Changed
+
+- .gitignore
+- CHANGELOG.md
+
+### Deprecated
+
+### Removed
+
+### Fixed
+
+### Security
+
+## [0.0.3] - 2025-05-30
+
+### Added
+
+- security.txt
 - .prettyphp
 - cspell.json
 - fandom-terms.txt
@@ -94,6 +114,7 @@ Versioning].
 
 <!-- Versions -->
 
-[unreleased]: https://github.com/nyxmidnight/zone-main/compare/v0.0.2...HEAD
+[unreleased]: https://github.com/nyxmidnight/zone-main/compare/v0.0.3...HEAD
+[0.0.3]: https://github.com/nyxmidnight/zone-main/compare/v0.0.2..v0.0.3
 [0.0.2]: https://github.com/nyxmidnight/zone-main/compare/v0.0.1...v0.0.2
 [0.0.1]: https://github.com/nyxmidnight/zone-main/releases/tag/v0.0.1
