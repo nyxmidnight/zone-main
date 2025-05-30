@@ -1,8 +1,5 @@
 User-agent: *
-Disallow: /css/
-Disallow: /img/
-Disallow: /inc/
-Disallow: /scss/
+Disallow:
 
 # Target User Agents and Reduce Spam via robots.txt
 # https://perishablepress.com/user-agents-robots-txt/
