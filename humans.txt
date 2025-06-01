@@ -1,20 +1,30 @@
-# <https://humanstxt.org>
+/* <https://humanstxt.org> */
 
-/* TEAM */
-
-Webperson: Nyx Midnight
-AKA: Nyx, Nyyyx
-Site: email, link to a contact form, etc.
-Twitter: your Twitter username.
-Location: City, Country.
+/* HUMAN */
+I: Nyx Midnight
+Pronouns: She/they
+Contact: https://blog.nyx.zone/contact/
+Blog: https://blog.nyx.zone
+Bluesky: @nyxmidnight.bsky.social
+GitHub: nyxmidnight
+Archive Of Our Own: nyxmidnight
+Location: Canada
 
 /* THANKS */
+Chris Coyer: https://css-tricks.com
+Jeff Starr: https://perishablepress.com
+Andy Bell: https://piccalil.li
+The Amassment community: https://amassment.org/board/
+MDN Web Docs: https://developer.mozilla.org
+All my friends and fans!
 
-Name: name or url
+/* SITE COLLECTIVE */
+Site collective name: The Nyx Zone
+Site collective URL: https://nyx.zone/
+Language: English (Canada)
+Standards: HTML5, CSS3, PHP8
+Components: Sass, .htaccess, robots.txt. humans.txt, ads.txt, (More) Modern CSS Reset
+Software: Visual Studio Code, FileZilla, Prepros, Laragon, GitKraken
+Last update: 2025-05-31
 
-/* SITE */
-
-Last update: YYYY/MM/DD
-Standards: HTML5, CSS3,..
-Components: Modernizr, jQuery, etc.
-Software: Software used for the development
+/* OWN YOUR WEBSITES */
