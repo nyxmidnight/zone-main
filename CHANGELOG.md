@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog], and this project adheres to [Semantic
 Versioning].
 
-## [version] - 2025-05-30
+## [version] - 2025-05-31
 
 ### Added
 
@@ -15,6 +15,9 @@ Versioning].
 
 - .gitignore
 - CHANGELOG.md
+- humans.txt
+- robots.txt
+- ads.txt
 
 ### Deprecated
 
